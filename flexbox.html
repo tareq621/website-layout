@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <style>
+        .container {
+            height: 500px;
+            border: 3px dotted coral;
+            display: flex;
+
+
+
+
+        }
+
+        .box {
+
+            width: 200px;
+
+            border: 3px dashed rebeccapurple;
+            font-size: 3em;
+
+        }
+
+        #name1 {
+            order: 2;
+            flex-grow: 0;
+        }
+
+        #name2 {
+            order: 1;
+            flex-grow: 1;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>I am flexible right now</h1>
+    <div class="container">
+        <div id="name1" class="box">Tareq Jubayer Nazmul Ranga Imam Rashedul</div>
+        <div id="name2" class="box">Anik</div>
+
+
+    </div>
+</body>
+
+</html>

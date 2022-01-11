@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .photo-frame {
+            width: 300px;
+            border: 3px solid cadetblue;
+            height: 200px;
+            border-radius: 10px;
+            position: relative;
+        }
+
+        .photo img {
+            width: 100%;
+            border-radius: 10px;
+        }
+
+        .photo-details {
+            position: absolute;
+            width: 300px;
+            display: none;
+            top: 0;
+
+        }
+
+        .photo-album:hover .photo-details {
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>My awesome photo album with Real Tiger</h1>
+    <section>
+        <h3>Tiger album</h3>
+        <div class="photo-album">
+            <div class="photo-frame">
+                <div class="photo">
+                    <img src="image/tiger.jpg" alt="">
+                </div>
+                <div class="photo-details">
+                    <h3>Tiger mama candid</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa ab quidem reiciendis reprehenderit
+                        illo animi officiis beatae. At enim, quaerat natus totam, libero temporibus tenetur id in
+                        officia est inventore.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
